@@ -1,15 +1,15 @@
-APP DESCRIPTION
+APP DESCRIPTION -------------------------------
 
 A real-time GPS location tracking app that displays the user's current position on an interactive OpenStreetMap. The app continuously monitors location changes and updates a marker on the map, showing latitude/longitude coordinates with timestamps and update counters. Built with Jetpack Compose and Material 3 design.
 
-PERMISSIONS USED
+PERMISSIONS USED ------------------------------
 1. ACCESS_FINE_LOCATION - For precise GPS location tracking
 2. ACCESS_COARSE_LOCATION - For approximate location (fallback option)
 3. INTERNET - Required to download map tiles from OpenStreetMap servers
 4. ACCESS_NETWORK_STATE - To check network connectivity for map loading
 5. WRITE_EXTERNAL_STORAGE (SDK ≤32) - For caching map tiles locally
 
-HOW GPS LOCATION IS OBTAINED
+HOW GPS LOCATION IS OBTAINED ------------------
 
 The app uses Google Play Services' FusedLocationProviderClient for GPS tracking:
 1. Permission Check: On startup, the app checks for location permissions and requests them if not granted using ActivityResultContracts
