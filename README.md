@@ -22,8 +22,8 @@ The FusedLocationProviderClient intelligently combines GPS, Wi-Fi, and cell towe
 
 SCREENSHOTS >>
 
-![Permission Request](screenshots/permission_request.jpg)
+<img src="screenshots/permission_request.jpg" alt="Permission Request" width="50%" />
 
-![Map Location](screenshots/map_location.jpg)
+<img src="screenshots/map_location.jpg" alt="Map Location" width="50%" />
 
-![Location Update](screenshots/location_update.jpg)
+<img src="screenshots/location_update.jpg" alt="Location Update" width="50%" />
