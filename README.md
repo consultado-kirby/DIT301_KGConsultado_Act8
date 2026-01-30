@@ -19,3 +19,11 @@ The app uses Google Play Services' FusedLocationProviderClient for GPS tracking:
 5. Lifecycle Management: Properly removes location updates in onDestroy() to prevent battery drain
 
 The FusedLocationProviderClient intelligently combines GPS, Wi-Fi, and cell tower data to provide the most accurate location with optimal battery usage.
+
+SCREENSHOTS >>
+
+![Permission Request](screenshots/permission_request.jpg)
+
+![Map Location](screenshots/map_location.jpg)
+
+![Location Update](screenshots/location_update.jpg)
